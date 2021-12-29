@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0%;
+    height: 100vh;
+    background:rgb(17, 17, 53);
+    background:rgb(17, 17, 53) linear-gradient(to bottom right,rgb(17, 17, 53),rgb(67, 189, 67));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+   
+}
+.question-card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 1rem .5rem ;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+.hide{
+    display: none;
+}
+
+.btn{
+    font-size: 2rem;
+    border-radius: 1rem;
+    color: white;
+    border: transparent;
+    background-color: rgb(197, 168, 1);
+    padding: .5rem;
+    margin: .2rem;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scaleX(1.2);
+    box-shadow: 0 0 .5rem .25rem;
+}
+h1{
+    font-size: 2.5rem;
+}
+#answers div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+table{
+    border-collapse: collapse;
+    margin: 1rem 1rem 1rem 0;
+    vertical-align: middle;
+    width: 100%;
+} 
+td{
+    font-size: large;
+}
+
+.correct{
+    background-color: rgb(27, 133, 141);
+}
+.incorrect{
+    background-color: rgb(197, 74, 74);
+}
